@@ -5,6 +5,7 @@
     border-collapse: collapse;
     width: 100%;
     text-align: center;
+    cursor: default;
 }
 
 #calendar-caption{
@@ -14,7 +15,12 @@
 }
 
 #calendar th, #calendar td{
+    border-radius: 15px;
     padding: 4px;
+}
+
+#calendar td:hover{
+    background-color: hsl(0, 6%, 65%);
 }
 
 .today{
