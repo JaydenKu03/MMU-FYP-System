@@ -205,6 +205,11 @@ h1{
     padding: 25px;
 }
 
+#event-container{
+    height: 600px;
+    overflow: auto;
+}
+
 .event-details{
     background-color: gainsboro;
     border-radius: 4px;

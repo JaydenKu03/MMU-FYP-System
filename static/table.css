@@ -1,12 +1,59 @@
 /* Container styling */
-.container {
+.table-container {
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 90%;
     min-width: 800px;
+    min-height: 500px;
+    max-height: 700px;
     margin: 80px auto;
     padding: 20px;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    overflow: auto;
+}
+
+.table-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ONLY TABLE */
+.modern-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.modern-table th, .modern-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.modern-table th {
+    color: #333;
+}
+
+.modern-table tr , .modern-table td{
+    max-height: 40px;
+}
+
+.modern-table a{
+    text-decoration: none;
+}
+
+.modern-table a:visited{
+    color: blue;
+}
+
+.modern-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Other Styling */
+#button-container{
+    text-align: center;
 }
 
 #approved-table th{
@@ -17,44 +64,7 @@
     background-color: #9190905d;
 }
 
-/* Heading styling */
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-/* Table styling */
-#table-container{
-    max-height: 500px;
-    overflow: auto;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 50px;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-th {
-    color: #333;
-}
-
-tr , td{
-    max-height: 40px;
-}
-
-tr:hover {
-    background-color: #f1f1f1;
-}
-
-#button-container{
-    text-align: center;
+#student-list-table th{
+    background-color: #3397e95d;
 }
 
