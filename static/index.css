@@ -12,7 +12,7 @@ h1{
 #container{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 7%;
+    column-gap: 4%;
     margin-top: 1%;
 }
 
@@ -21,7 +21,7 @@ h1{
     background-color: hsl(220, 33%, 98%);
     border: 1px solid hsl(220, 15%, 85%);
     border-radius: 2px ;
-    width: 1%;
+    width: 10%;
     min-width: 190px;
     flex-grow: 1;
 }
@@ -73,8 +73,8 @@ h1{
 /* Center Panel */
 #center-panel{
     flex-grow: 1;
-    width: 50%;
-    min-width: 360px;
+    width: 60%;
+    min-width: 370px;
     margin-bottom: 10%;
 }
 
@@ -183,4 +183,33 @@ h1{
     font-size: 1.2rem;
     resize: none;
 }
+
+/* activity-bar-panel */
+#activity-bar-panel{
+    border-radius: 2px ;
+    margin-right: 20px;
+    width: 15%;
+    min-width: 330px;
+    flex-grow: 1;
+}
+
+#activity-bar-panel h2{
+    border-bottom: 1px solid gray;
+    margin: 0px 5px 25px 0px;
+}
+
+#calendar-container, #event-container{
+    background-color: hsl(220, 33%, 98%);
+    border: 1px solid hsl(220, 15%, 85%); 
+    margin-bottom: 20%;
+    padding: 25px;
+}
+
+.event-details{
+    background-color: gainsboro;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
 
