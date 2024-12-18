@@ -19,10 +19,6 @@
     padding: 4px;
 }
 
-#calendar td:hover{
-    background-color: hsl(0, 6%, 65%);
-}
-
 .today{
     background-color: hsl(60, 80%, 69%);
     border-radius: 15px;
