@@ -18,63 +18,86 @@
         </ul>
     </nav>
 
-    <div class="table-container">
-        <h1>Approved FYP Title List</h1>
-        <table id="approved-table" class="modern-table">
-            <thead>
-                <tr>
-                    <th>No.</th>
-                    <th>Student ID</th>
-                    <th>Student Name</th>
-                    <th>Phone Number</th>
-                    <th>Title</th>
-                    <th>Supervisor</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>0123456789</td>
-                    <td>Billy</td>
-                    <td>012-3456789</td>
-                    <td>Image Encryption and Decryption using Chaotic Key</td>
-                    <td>lecturer A</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>0103339998</td>
-                    <td>Ali</td>
-                    <td>010-3336666</td>
-                    <td>title 2</td>
-                    <td>lecturer B</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>0123987654</td>
-                    <td>Alice</td>
-                    <td>016-4567890</td>
-                    <td>title 3</td>
-                    <td>lecturer C</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>0123456789</td>
-                    <td>Jayden</td>
-                    <td>011-6327458</td>
-                    <td>title 4</td>
-                    <td>lecturer A</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>0123456789</td>
-                    <td>John</td>
-                    <td>018-7891346</td>
-                    <td>title 5</td>
-                    <td>lecturer A</td>
-                </tr>
-            </tbody>
-        </table>
-        
+    <div class="content-container">
+        <div class="filter-container">
+            <h2>Filters: </h2>
+            <label for="searchName">Name:</label>
+            <input type="search" id="searchName" name="search" placeholder="Search Name...">
+            <label for="speacilization">Specialization:</label>
+            <select id="speacilization" name="speacilization">
+                <option value="all-specializations">All Specializations</option>
+                <option value="computerScience">Computer Science</option>
+                <option value="cyberSecurity">Cybersecurity</option>
+                <option value="gameDevelopment">Game Development</option>
+                <option value="dataScience">Data Science</option>
+                <option value="softwareEnginering">Software Enginering</option>
+                <option value="informationSystem">Information System</option>
+            </select>
+        </div>
+
+        <div class="table-container">
+            <h1>Approved FYP Title List</h1>
+            <table id="approved-table" class="modern-table">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Phone Number</th>
+                        <th>Project Title</th>
+                        <th>Specialization</th>
+                        <th>Supervisor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>0123456789</td>
+                        <td>Billy</td>
+                        <td>012-3456789</td>
+                        <td>Image Encryption and Decryption using Chaotic Key</td>
+                        <td>Cybersecurity</td>
+                        <td>lecturer A</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>0103339998</td>
+                        <td>Ali</td>
+                        <td>010-3336666</td>
+                        <td>title 2</td>
+                        <td>-</td>
+                        <td>lecturer B</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>0123987654</td>
+                        <td>Alice</td>
+                        <td>016-4567890</td>
+                        <td>title 3</td>
+                        <td>-</td>
+                        <td>lecturer C</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>0123456789</td>
+                        <td>Jayden</td>
+                        <td>011-6327458</td>
+                        <td>title 4</td>
+                        <td>-</td>
+                        <td>lecturer A</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>0123456789</td>
+                        <td>John</td>
+                        <td>018-7891346</td>
+                        <td>title 5</td>
+                        <td>-</td>
+                        <td>lecturer A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>     
     </div>
 
     <footer>
@@ -105,25 +128,32 @@
         <div id="social-info">
             <h3>Connect With Us</h3>
             <a href="https://www.facebook.com/mmu.malaysia" target="_blank">
-                <img src="https://www.mmu.edu.my/wp-content/uploads/2018/04/social-fb.png" alt="facebook" title="Facebook">
+                <img src="https://www.mmu.edu.my/wp-content/uploads/2018/04/social-fb.png" alt="facebook"
+                    title="Facebook">
             </a>
             <a href="https://www.instagram.com/mmumalaysia/" target="_blank">
-                <img src="https://www.mmu.edu.my/wp-content/uploads/2018/04/social-in.png" alt="instagram" title="Instagram">
+                <img src="https://www.mmu.edu.my/wp-content/uploads/2018/04/social-in.png" alt="instagram"
+                    title="Instagram">
             </a>
             <a href="https://www.youtube.com/user/mmumalaysiatv" target="_blank">
-                <img src="https://www.mmu.edu.my/wp-content/uploads/2018/04/social-yt.png" alt="youtube" title="Youtube">
+                <img src="https://www.mmu.edu.my/wp-content/uploads/2018/04/social-yt.png" alt="youtube"
+                    title="Youtube">
             </a>
             <a href="https://twitter.com/mmumalaysia" target="_blank">
-                <img src="https://www.mmu.edu.my/wp-content/uploads/2018/04/social-tw.png" alt="twitter" title="Twitter">
+                <img src="https://www.mmu.edu.my/wp-content/uploads/2018/04/social-tw.png" alt="twitter"
+                    title="Twitter">
             </a>
             <a href="https://www.tiktok.com/@mmumalaysia" target="_blank">
-                <img src="https://www.mmu.edu.my/wp-content/uploads/2021/01/tiktik-logo-1.png" alt="tiktok" title="Tiktok">
+                <img src="https://www.mmu.edu.my/wp-content/uploads/2021/01/tiktik-logo-1.png" alt="tiktok"
+                    title="Tiktok">
             </a>
             <a href="https://www.linkedin.com/school/mmumalaysia/" target="_blank">
-                <img src="https://www.mmu.edu.my/wp-content/uploads/2021/01/linkedin-logo-small-3.png" alt="linked_in" title="LinkedIn">
+                <img src="https://www.mmu.edu.my/wp-content/uploads/2021/01/linkedin-logo-small-3.png" alt="linked_in"
+                    title="LinkedIn">
             </a>
             <a href="https://www.flickr.com/photos/mmumalaysia" target="_blank">
-                <img src="https://www.mmu.edu.my/wp-content/uploads/2021/01/flicker-logo-1.png" alt="flicker" title="Flicker">
+                <img src="https://www.mmu.edu.my/wp-content/uploads/2021/01/flicker-logo-1.png" alt="flicker"
+                    title="Flicker">
             </a>
         </div>
     </footer>

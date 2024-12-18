@@ -1,15 +1,24 @@
-/* Container styling */
+/* Main Container Styling */
+.content-container{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 4%;
+    flex-wrap: wrap;
+    margin: 50px 30px 50px 40px;
+}
+
+/* Table Container styling */
 .table-container {
     background-color: hsl(0, 0%, 98%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    min-width: 800px;
+    width: 80%;
     min-height: 500px;
     max-height: 700px;
-    margin: 80px auto;
+
     padding: 20px;
     border-radius: 8px;
     overflow: auto;
+    flex-grow: 1;
 }
 
 .table-container h1{
@@ -18,7 +27,7 @@
     color: #333;
 }
 
-/* ONLY TABLE */
+/* Table Styling */
 .modern-table{
     width: 100%;
     border-collapse: collapse;
@@ -51,7 +60,36 @@
     background-color: #f1f1f1;
 }
 
-/* Other Styling */
+/* Filter Container Styling */
+.filter-container{
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+    min-width: 200px;
+    width: 10%;
+    flex-grow: 1;
+}
+
+.filter-container h2{
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+}
+
+/* Filter Styling */
+.filter-container label{
+    font-size: 1.2rem;
+}
+
+.filter-container input, .filter-container select{
+    display: block;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 90%;
+}
+
+/* ID Styling */
 #button-container{
     text-align: center;
 }
