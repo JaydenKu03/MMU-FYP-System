@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/base.css">
+    <link rel="stylesheet" href="static/announcement.css">
+    <title>Annoucement and Event</title>
+</head>
+
+<body>
+    <nav id="top-navigation-bar">
+        <img src="images/mmu_logo.png" alt="mmu_logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Contributors</a></li>
+        </ul>
+    </nav>
+    
+    <div class="form-container">
+        <div class="tabs">
+            <div class="tab active" id="announcementTab">Announcement</div>
+            <div class="tab" id="eventTab">Event</div>
+        </div>
+
+        <form id="announcementForm" class="active">
+            <label for="announcementBy">Post By:</label>
+            <input type="text" id="announcementBy" name="announcementBy" placeholder="Your Name">
+
+            <label for="announcementTitle">Announcement Title:</label>
+            <input type="text" id="announcementTitle" name="announcementTitle" placeholder="Enter Title">
+
+            <label for="announcementContent">Announcement Content:</label>
+            <textarea id="announcementContent" name="announcementContent" rows="4" placeholder="Write your announcement..."></textarea>
+
+            <button type="submit">Post Announcement</button>
+        </form>
+
+        <form id="eventForm">
+            <label for="eventBy">Post By:</label>
+            <input type="text" id="eventBy" name="eventBy" placeholder="Your Name">
+
+            <label for="eventDate">Event Date:</label>
+            <input type="date" id="eventDate" name="eventDate">
+
+            <label for="eventTitle">Event Title:</label>
+            <input type="text" id="eventTitle" name="eventTitle" placeholder="Enter Event Title">
+
+            <button type="submit">Post Event</button>
+        </form>
+    </div>
+
+    <script src="static/function.js"></script>
+
+</body>
+
+</html>
