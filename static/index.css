@@ -158,16 +158,33 @@ h1{
 }
 
 .annoucement-text {
-    color: hsl(219, 61%, 45%);
+    color: black;
     background-color: hsl(0, 0%, 97%);
     border-bottom: 1px solid #d2d6de;
     border-radius: 3px;
     width: 100%;
-    min-height: 100px;
+    height: 180px;
+    max-height: 180px;
     padding: 10px;
-    overflow: auto;
     font-size: 1.1rem;
     text-align: left;
+}
+
+.annoucement-text span{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.annoucement-text .title{
+    color: black;
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+    font-size: 1.4rem;
+    width: fit-content;
+}
+
+.annoucement-text .author{
+    color: hsl(219, 61%, 45%);
 }
 
 #annoucement-component {
