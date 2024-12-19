@@ -1,90 +1,60 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 h1 {
     text-align: center;
-    text-transform: capitalize;
-    font-weight: bold;
 }
+
+/* Main Container */
 .containerwrapper {
     display: flex; /* Align containers in a row */
+    flex-wrap: wrap;
     justify-content: flex-start; /* Align to the left */
     align-items: flex-start; /* Align at the top */
-    gap: 20px; /* Space between containers (adjust as needed) */
-    margin-top: 20px; /* Space below the header */
+    gap: 10%; /* Space between containers (adjust as needed) */
+    margin: 20px 40px 10px 40px; /* Space below the header */
     padding: 20px; /* Optional padding */
 }
 
-.container1{
-    background-color: lightcyan; /* Background color */
+/* Supervisor Part */
+.supervisor-container{
+    background-color: rgba(42, 106, 189, 0.37); /* Background color */
     width: 350px; /* Fixed width for a square shape */
-    height: 100vh; /* Equal height for a square */
+    margin-bottom:30px;
     padding: 20px; /* Space inside the container */
-    position: relative;
-    top: 80;
-    left: 0px;
     border-radius: 20px; /* Smooth rounded edges */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+    flex-grow: 1;
 }
 
-
-.container1 ul {
+.supervisor-container li{
     text-align: center;
     list-style: none;
 }
 
-.container2 {
-    background-color: aqua;
-    width: 200px; /* Fixed width for a square shape */
-    height: 30vh; /* Equal height for a square */
-    padding: 20px; /* Space inside the container */
-    position: relative; /* Stays centered on the screen */
-    top: 80;
-    left: 10vh;
-    border-radius: 20px; /* Smooth rounded edges */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
-   
+.supervisor-container img{
+    display: block;
+    margin: auto;
 }
 
-.container2 li{
-    text-align: center;
+/* Student Part */
+.supervised-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 50%;
+    min-width: 40%;
+    max-height: 700px;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.student-info {
+    background-color: #3397e95d;
+    width: 100%; /* Fixed width for a square shape */
+    padding: 20px; /* Space inside the container */
+    border-radius: 15px; /* Smooth rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.student-info li{
+    text-align: left;
     list-style: none;
 }
-
-.container3 {
-    background-color: aqua;
-    width: 200px; /* Fixed width for a square shape */
-    height: 30vh; /* Equal height for a square */
-    padding: 20px; /* Space inside the container */
-    position: relative; /* Stays centered on the screen */
-    top: 80;
-    left: 20vh;
-    border-radius: 20px; /* Smooth rounded edges */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
-   
-}
-
-.container3 li{
-    list-style: none;
-    text-align: center;
-}
-
-.container4 {
-    background-color: aqua;
-    width: 200px; /* Fixed width for a square shape */
-    height: 30vh; /* Equal height for a square */
-    padding: 20px; /* Space inside the container */
-    position: relative; /* Stays centered on the screen */
-    top: 80;
-    left: 30vh;
-    border-radius: 20px; /* Smooth rounded edges */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
-   
-}
-
-.container4 li{
-    list-style: none;
-    text-align: center;
-}
-

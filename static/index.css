@@ -12,7 +12,7 @@ h1{
 #container{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 4%;
+    column-gap: 3%;
     margin-top: 1%;
 }
 
@@ -21,8 +21,8 @@ h1{
     background-color: hsl(220, 33%, 98%);
     border: 1px solid hsl(220, 15%, 85%);
     border-radius: 2px ;
-    width: 10%;
-    min-width: 190px;
+    width: 5%;
+    min-width: 150px;
     flex-grow: 1;
 }
 
@@ -75,7 +75,7 @@ h1{
 /* Center Panel */
 #center-panel{
     flex-grow: 1;
-    width: 60%;
+    width: 50%;
     min-width: 370px;
     margin-bottom: 10%;
 }
@@ -91,11 +91,9 @@ h1{
 
 #operation-content{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    column-gap: 25px;
+    justify-content: flex-start;
+    column-gap: 13px;
     row-gap: 35px;
     padding: 10px;
     min-width: 50%;
@@ -109,11 +107,13 @@ h1{
     border: 1px solid gray;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    width: 190px;
-    height: 190px;
+    width: 150px;
+    height: 150px;
+    font-size: 0.9rem; 
 }
 
 .operation-task a{
+    color: hsl(0, 0%, 20%); 
     text-decoration: none;
     display: flex;
     flex-direction: column; 
@@ -127,11 +127,6 @@ h1{
     width: 100px;
 }
   
-.operation-task p{
-    color: hsl(0, 0%, 20%); 
-    font-size: 1.1rem; 
-}
-
 .operation-task:hover{
     transform: scale(1.02);
 }
@@ -207,8 +202,8 @@ h1{
 #activity-bar-panel{
     border-radius: 2px ;
     margin-right: 20px;
-    width: 15%;
-    min-width: 330px;
+    width: 10%;
+    min-width: 220px;
     flex-grow: 1;
 }
 

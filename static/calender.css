@@ -3,9 +3,9 @@
     border: none;
     border-radius: 3px;
     border-collapse: collapse;
-    width: 100%;
     text-align: center;
     cursor: default;
+    width: 100%;
 }
 
 #calendar-caption{
@@ -16,7 +16,7 @@
 
 #calendar th, #calendar td{
     border-radius: 15px;
-    padding: 4px;
+    /* padding: 5px; */
 }
 
 .today{
