@@ -14,7 +14,7 @@
             <img src="images/mmu_logo.png" alt="mmu_logo">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Contributors</a></li>
+                <li><a href="contributors.html">Contributors</a></li>
             </ul>
         </nav>
 
@@ -56,7 +56,6 @@
                                 <th>Date</th>
                                 <th>Time</th>
                                 <th>Status</th>
-                                <th>Comment</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -66,8 +65,25 @@
                                 <td>Discuss Chapter 1</td>
                                 <td>19/12/2024</td>
                                 <td>3.00 PM</td>
-                                <td>Yes</td>
-                                <td>Please research about your topic</td>
+                                <td>Done</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Second Meeting</td>
+                                <td>Refine Chapter 1</td>
+                                <td>20/12/2024</td>
+                                <td>3.00 PM</td>
+                                <td>No</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Second Meeting</td>
+                                <td>Refine Chapter 1</td>
+                                <td>20/12/2024</td>
+                                <td>4.00 PM</td>
+                                <td>Pending</td>
                             </tr>
                         </tbody>
                     </table>
@@ -76,54 +92,16 @@
                 <div class="logs-container">
                     <h2><b>Meeting Logs</b></h2>
                     <br />
-                    <table id="meeting-logs">
-                        <thead>
-                            <tr>
-                                <th>No.</th>
-                                <th>Meeting Logs</th>
-                                <th>Submission Status</th>
-                                <th>Comment</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Meeting Log 1</td>
-                                <td>Submitted</td>
-                                <td>Target at least 10 research paper</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Attach File Here</td>
-                                <td>No</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Attach File Here</td>
-                                <td>No</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Attach File Here</td>
-                                <td>No</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Attach File Here</td>
-                                <td>No</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Attach File Here</td>
-                                <td>No</td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <ol>
+                        <li><a href="#">weeklylog1.pdf</a></li>
+                        <li><a href="#">weeklylog2.pdf</a></li>
+                        <li><a href="#">weeklylog3.pdf</a></li>
+                        <li><a href="#">weeklylog4.pdf</a></li>
+                    </ol>
+                    <form id="logs" method="post" enctype="multipart/form-data" class="active-form">
+                        <input type="file" name="file">
+                        <button type="submit">Submit Logs</button>
+                    </form>
                 </div>
             </div>
 
