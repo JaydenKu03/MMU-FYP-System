@@ -23,7 +23,7 @@ h1 {
 
 .logs-container {
     width: 30%;
-    background-color: lightblue;
+    background-color: lightcyan;
     padding: 15px;
     border-radius: 5px;
 }
@@ -68,6 +68,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    
 }
 
 button:hover {
@@ -85,6 +86,7 @@ table {
     background-color: white;
     text-align: center;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 td {
@@ -99,4 +101,17 @@ th {
     text-align: center;
     background-color: lightskyblue;
     font-weight: bold;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin:5px 0;
+}
+
+.logs {
+    display: block;
+    background-color: white;
 }
