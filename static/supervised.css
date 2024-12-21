@@ -58,3 +58,9 @@ h1 {
     text-align: left;
     list-style: none;
 }
+
+.student-info a{
+    color: black;
+    text-decoration: none;
+}
+
